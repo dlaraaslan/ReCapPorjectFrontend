@@ -22,5 +22,5 @@ export class RentalComponent implements OnInit {
       this.dataLoaded=true;
     })
   }
-
+  
 }

@@ -1,12 +1,12 @@
+
 <div class="rounded-0 mt-4">
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Marka</th>
-            </tr>
-        </thead>
-        <tr *ngFor="let brand of brands">
-            <td>{{brand.brandName}}</td>
-        </tr>
-    </table>
+    <li class="list-group-item list-group-item-action list-group-item-secondary"
+     >Brands 🢓</li>
+    <li (click)="setCurrentBrand(brand)"
+    routerLink="cars/brand/{{brand.brandId}}" 
+    *ngFor="let brand of brands" 
+    [class]="getCurrentBrandClass(brand)">-{{brand.brandName}}</li>
+
+    
 </div>
+
