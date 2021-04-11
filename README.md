@@ -4,4 +4,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-![alt text](https://hizliresim.com/7E30T8)
+![angular](https://hizliresim.com/7E30T8)
